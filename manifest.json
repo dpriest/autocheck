@@ -1,0 +1,27 @@
+{
+
+	"manifest_version": 2,
+	"background": {
+		"page": "background.html"
+	},
+	"browser_action": {
+		"default_title" : "dpriest自动签到",
+		"default_popup" : "check.html"
+	},
+	"description": "dpriest自动签到",
+	"name": "dpriest自动签到",
+	"permissions": [
+		"cookies", 
+		"tabs", 
+		"notifications",
+		"*://*.huihui.cn/*",
+		"*://*.smzdm.com/*",
+		"*://*.taobao.com/*", 
+		"*://*.tmall.com/*",
+		"*://*.etao.com/*",
+		"*://*.alipay.com/*",
+		"*://*.qq.com/*",
+		"*://*.huanle95.com/*"
+	],
+	"version": "1.0.0"
+}
